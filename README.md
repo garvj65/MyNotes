@@ -1,6 +1,6 @@
 # 🧠 MyNotes — AI-Powered Note-Taking App
 
-MyNotes is a smart, minimalist note-taking web app that leverages AI to summarize your notes. Built with **Next.js 14 (App Router)**, **Supabase** for authentication & database, **Groq** for summarization, and deployed on **Vercel**.
+MyNotes is a smart, minimalist note-taking web app that uses AI to summarize your notes. MyNotes is a smart digital notebook that helps you easily write down and organize your thoughts, ideas, or important information. Think of it like a super-powered diary or journal that’s always with you on your computer. MyNotes is your personal, smart helper for capturing and organizing your thoughts quickly and clearly.
 
 ---
 The application is deployed on https://mynotes-alpha.vercel.app
@@ -73,20 +73,6 @@ GROQ_API_KEY=your_groq_api_key
 ---
 
 
-
-## 🧾 Deployment (Vercel)
-
-1. Push your code to GitHub.
-2. Create a new project on [Vercel](https://vercel.com).
-3. Connect GitHub → Import Repo
-4. Add environment variables from `.env.local`
-5. Click **Deploy**
-
-⚠️ After deployment, add your Vercel domain to:
-- **Supabase → Auth → URL Redirects**
-- **Google Cloud Console → OAuth credentials**
-
----
 
 
 ## 👨‍💻 Author
