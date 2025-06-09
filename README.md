@@ -1,4 +1,4 @@
-# 🧠 MyNotes — AI-Powered Note-Taking App
+# 🧠 MyNotes — AI-Powered Note-Summarizing App
 
 MyNotes is a smart, minimalist note-taking web app that uses AI to summarize your notes. MyNotes is a smart digital notebook that helps you easily write down and organize your thoughts, ideas, or important information. Think of it like a super-powered diary or journal that’s always with you on your computer. MyNotes is your personal, smart helper for capturing and organizing your thoughts quickly and clearly.
 
