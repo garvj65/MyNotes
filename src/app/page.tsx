@@ -67,7 +67,15 @@ export default function Home() {
       </div>
 
       <footer className="mt-20 text-sm text-gray-400 select-none">
-        Built with ❤️ by someone who *actually* reads release notes.
+        Built by Garv Jhajharia with{" "}
+        <a
+          href="https://groq.com"
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Groq
+        </a>
       </footer>
     </main>
   );
