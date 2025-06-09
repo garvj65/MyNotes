@@ -2,6 +2,7 @@ import "./globals.css";
 import QueryProvider from "@/components/providers/query-provider";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   title: "MyNotes",
   description: "AI-powered notes with summaries",
   icons: {
-    icon: "/favicon.png", // or .png if that's what you're using
+    icon: "/favicon.png",
   },
 };
 
@@ -34,6 +35,8 @@ export default function RootLayout({
         <QueryProvider>
           {children}
         </QueryProvider>
+        {/* REFACTOR: Add the Toaster here. It will render notifications globally. */}
+        <Toaster position="top-center" richColors />
       </body>
     </html>
   );
